@@ -1,0 +1,111 @@
+1  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerWashPro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">AB Powerwashing</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#services" class="hover:text-blue-600">Services</a>
+        <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative bg-blue-600 text-white text-center py-24">
+    <img src="https://images.unsplash.com/photo-1604467795302-7587ee764891?fit=crop&w=1600&q=80" 
+         alt="Powerwashing in action" 
+         class="absolute inset-0 w-full h-full object-cover opacity-40">
+    <div class="relative z-10">
+      <h2 class="text-4xl font-bold mb-4">Restore Your Property's Shine</h2>
+      <p class="text-lg mb-6">Professional Power Washing for Homes & Businesses</p>
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-2 rounded font-semibold">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-4 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-4">Why Choose Us</h3>
+    <p class="text-lg mb-6">We’re a trusted, locally-owned power washing company offering high-quality service at affordable rates. We use professional-grade equipment to ensure your property looks brand new again.</p>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Eco-friendly cleaning solutions</li>
+      <li>Licensed & insured professionals</li>
+      <li>Fast, reliable, and honest service</li>
+    </ul>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="bg-white py-16 px-4 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold mb-10 text-center">Our Services</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="Screenshot 2025-08-06 220940.png" class="mb-4 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">House Washing</h4>
+        <p>Remove dirt, algae, and mildew from siding and gutters.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="Screenshot 2025-08-06 221325.png" alt="Sidewalk/Walkway" class="mb-4 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Driveway & Sidewalk Cleaning</h4>
+        <p>Restore your concrete’s clean, bright look.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow">
+        <img src="Screenshot 2025-08-06 221954.png" alt="Deck cleaning" class="mb-4 rounded shadow">
+        <h4 class="text-xl font-semibold mb-2">Deck & Fence Cleaning</h4>
+        <p>Safe wood cleaning that preserves your outdoor spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 px-4 bg-blue-50">
+    <h3 class="text-3xl font-bold text-center mb-10">What Customers Say</h3>
+    <div class="max-w-4xl mx-auto space-y-6 text-center">
+      <blockquote class="italic">“Amazing service! My driveway looks like new.” – <strong>Emily R.</strong></blockquote>
+      <blockquote class="italic">“Fast, professional, and great pricing. Highly recommend.” – <strong>James M.</strong></blockquote>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="bg-gray-100 py-16 px-4 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-10">Before & After</h3>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <img src="IMG_8718 (1).png" class="rounded shadow" alt="Before powerwashing" />
+      <img src="IMG_8719.png" class="rounded shadow" alt="After powerwashing" />
+      <img src="IMG_8720.png" class="rounded shadow" alt="Deck cleaning example" />
+       <img src="IMG_8721.png" class="rounded shadow" alt="Before powerwashing" />
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-4 max-w-4xl mx-auto">
+  <h3 class="text-3xl font-bold mb-4">Get in Touch</h3>
+  <form action="https://formsubmit.co/Ahmedkasim803@gmail.com" method="POST" class="space-y-6">
+    <input type="text" name="name" placeholder="Name" class="w-full border p-3 rounded" required />
+    <input type="email" name="email" placeholder="Email" class="w-full border p-3 rounded" required />
+    <textarea name="message" placeholder="Message or Request a Quote" rows="5" class="w-full border p-3 rounded" required></textarea>
+    
+    <!-- Optional hidden fields -->
+    <input type="hidden" name="_subject" value="New Quote Request from PowerWashPro">
+    <input type="hidden" name="_captcha" value="false">
+    
+    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
+  </form>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 PowerWashPro. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
